@@ -53,16 +53,20 @@ struct HomeHeader: View {
                 HStack {
                     Image(systemName: "magnifyingglass")
                         .padding(.leading, 20)
+                        .foregroundColor(.black.opacity(0.4))
                     TextField("Search addresses, or near you", text: $searchInput)
                         .padding(.vertical, 14)
                         .padding(.leading, 6)
                         .padding(.trailing, 20)
                 }
+                .frame(maxHeight: .infinity)
                 .background(.gray.opacity(0.07))
                 .cornerRadius(10)
-                CustomButton(icon: "line.3.horizontal.decrease.circle", iconOnly: .constant(true))
+                CustomButton(icon: "line.3.horizontal.decrease.circle", iconOnly: true)
                     .font(.system(size: 20))
+                    .frame(width: 48)
             }
+            .frame(height: 48)
             
         }
     }

@@ -17,6 +17,12 @@
 		4E3462B829AB8F8A00181A5B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3462B729AB8F8A00181A5B /* HomeView.swift */; };
 		4E3462BB29AB943B00181A5B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3462BA29AB943B00181A5B /* CustomButton.swift */; };
 		4E3462BD29AB947E00181A5B /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3462BC29AB947E00181A5B /* HomeHeader.swift */; };
+		4E5439F329ACD2B600BF86D6 /* HouseSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5439F229ACD2B600BF86D6 /* HouseSlider.swift */; };
+		4E5439F529AD02B800BF86D6 /* HomeLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5439F429AD02B800BF86D6 /* HomeLists.swift */; };
+		4E5439F729AD0A6200BF86D6 /* HouseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5439F629AD0A6200BF86D6 /* HouseCard.swift */; };
+		4E5439F929AD0BCE00BF86D6 /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5439F829AD0BCE00BF86D6 /* HouseList.swift */; };
+		4E64DE1729AC3FA7002CD2E9 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E64DE1629AC3FA7002CD2E9 /* Categories.swift */; };
+		4E64DE1929AC40D1002CD2E9 /* CategoryLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E64DE1829AC40D1002CD2E9 /* CategoryLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		4E3462B729AB8F8A00181A5B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4E3462BA29AB943B00181A5B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		4E3462BC29AB947E00181A5B /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		4E5439F229ACD2B600BF86D6 /* HouseSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseSlider.swift; sourceTree = "<group>"; };
+		4E5439F429AD02B800BF86D6 /* HomeLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLists.swift; sourceTree = "<group>"; };
+		4E5439F629AD0A6200BF86D6 /* HouseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseCard.swift; sourceTree = "<group>"; };
+		4E5439F829AD0BCE00BF86D6 /* HouseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseList.swift; sourceTree = "<group>"; };
+		4E64DE1629AC3FA7002CD2E9 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		4E64DE1829AC40D1002CD2E9 /* CategoryLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				4E3462B429AB8ED600181A5B /* Houses.swift */,
+				4E64DE1629AC3FA7002CD2E9 /* Categories.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -97,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				4E3462BC29AB947E00181A5B /* HomeHeader.swift */,
+				4E64DE1829AC40D1002CD2E9 /* CategoryLists.swift */,
+				4E5439F229ACD2B600BF86D6 /* HouseSlider.swift */,
+				4E5439F429AD02B800BF86D6 /* HomeLists.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -113,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				4E3462BA29AB943B00181A5B /* CustomButton.swift */,
+				4E5439F629AD0A6200BF86D6 /* HouseCard.swift */,
+				4E5439F829AD0BCE00BF86D6 /* HouseList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -187,12 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5439F329ACD2B600BF86D6 /* HouseSlider.swift in Sources */,
 				4E3462BB29AB943B00181A5B /* CustomButton.swift in Sources */,
 				4E3462A329AB850700181A5B /* ContentView.swift in Sources */,
 				4E3462B529AB8ED600181A5B /* Houses.swift in Sources */,
+				4E64DE1929AC40D1002CD2E9 /* CategoryLists.swift in Sources */,
 				4E3462B129AB8EAF00181A5B /* Extensions.swift in Sources */,
+				4E5439F529AD02B800BF86D6 /* HomeLists.swift in Sources */,
 				4E3462B829AB8F8A00181A5B /* HomeView.swift in Sources */,
+				4E5439F929AD0BCE00BF86D6 /* HouseList.swift in Sources */,
 				4E3462BD29AB947E00181A5B /* HomeHeader.swift in Sources */,
+				4E5439F729AD0A6200BF86D6 /* HouseCard.swift in Sources */,
+				4E64DE1729AC3FA7002CD2E9 /* Categories.swift in Sources */,
 				4E3462A129AB850700181A5B /* HomeRentApp.swift in Sources */,
 				4E3462B329AB8EB800181A5B /* Utils.swift in Sources */,
 			);

@@ -11,12 +11,19 @@ struct HomeView: View {
     @State var hasNotification = true
     
     var body: some View {
-        VStack {
-            HomeHeader()
+        ScrollView(.vertical) {
+            VStack {
+                HomeHeader()
+                    .padding(.horizontal, 6)
+                    .padding()
+                CategoryLists()
+                    .padding(.bottom, 24)
+                HouseSlider()
+                    .padding(.bottom, 24)
+                HomeLists()
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .padding(.horizontal, 6)
-        .padding()
     }
 }
 
